@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #fdfdfd;
+    color: #222;
+}
+
+header {
+    background: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #333;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 5%;
+    gap: 50px;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.hero img {
+    width: 45%;
+    border-radius: 20px;
+}
+
+.hero .btn {
+    display: inline-block;
+    margin-top: 15px;
+    background: #4e73df;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+h2 {
+    margin: 40px 0 20px;
+    font-size: 28px;
+}
+
+.sobre p, .projetos p {
+    line-height: 1.6;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 3px 15px rgba(0,0,0,0.15);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.btn-card {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 16px;
+    background: #4e73df;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.social-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-buttons a {
+    padding: 12px 20px;
+    background: #4e73df;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background: #eee;
+}
